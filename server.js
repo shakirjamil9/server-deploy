@@ -34,6 +34,6 @@ app.get('/data', (req, res) => {
 
 
 
-app.listen(150, () => {
+app.listen(process.env.PORT || 150, () => {
     console.log('Running...');
 })
